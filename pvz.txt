@@ -1,0 +1,21 @@
+        <div class="container-fluid">
+            <div class="row mx-auto">
+                <button class="col-2 btn colorA">start1</button>
+                <button class="col-2 btn colorA">start2</button>
+                <button class="col-2 btn colorA">start3</button>
+            </div>
+            <div class="">
+                <div class="col-3 col-sm-7 p-5 mx-auto mt-5 rounded colorA">
+
+                </div>
+            </div>
+        </div>
+
+
+
+const dogsBtn = document.createElement("button")
+dogsBtn.textContent = "DOGS"
+const catsBtn = document.createElement("button")
+catsBtn.textContent = "CATS"
+const birdsBtn = document.createElement("button")
+birdsBtn.textContent = "BIRDS"
